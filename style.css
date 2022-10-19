@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 67px;
+  border-bottom: 1px solid #c6c6c6;
 }
 
 .app-logo {
@@ -38,9 +39,6 @@ header {
 
 /* Post style rules */
 
-article {
-  margin-bottom: 25px;
-}
 .post-avatar-container {
   display: flex;
   justify-content: center;
@@ -110,4 +108,8 @@ article {
 
 .post-user-name {
   font-weight: 700;
+}
+
+article {
+  margin-bottom: 25px;
 }
