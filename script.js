@@ -42,8 +42,7 @@ function render(posts) {
 }
 
 function createPostDom(post) {
-  return `
-  <article>
+  return `<article>
     <section class="post-header">
       <div class="post-avatar-container">
         <img class="post-avatar" src="${post.avatar}" alt="user avatar" />
@@ -66,7 +65,7 @@ function createPostDom(post) {
       <div class="post-comment">
         <span class="post-user-name">${post.username}</span> ${post.comment}
       </div>
-    </section
+    </section>
   </article>`;
 }
 
